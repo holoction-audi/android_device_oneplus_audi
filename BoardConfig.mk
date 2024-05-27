@@ -12,6 +12,9 @@ DEVICE_PATH := device/oneplus/audi
 # Assert
 TARGET_OTA_ASSERT_DEVICE := OP5E93L1
 
+# Camera
+TARGET_CAMERA_SERVICE_EXT_LIB := //$(DEVICE_PATH):libcameraservice_extension.waffle
+
 # Kernel (prebuilt)
 PREBUILT_PATH := device/oneplus/audi-prebuilt
 TARGET_NO_KERNEL_OVERRIDE := true
