@@ -5,15 +5,15 @@
 #
 
 # Include the common OEM chipset BoardConfig.
-include device/oneplus/sm8650-common/BoardConfigCommon.mk
+include device/oneplus/sm7675-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/waffle
+DEVICE_PATH := device/oneplus/audi
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := OP5929L1,OP595DL1
+TARGET_OTA_ASSERT_DEVICE := OP5CFBL1
 
 # Display
-TARGET_SCREEN_DENSITY := 640
+TARGET_SCREEN_DENSITY := 560
 
 # Kernel
 BOARD_KERNEL_BINARIES := kernel
@@ -27,7 +27,7 @@ INLINE_KERNEL_BUILDING := true
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)-kernel/dtb.img:$(TARGET_COPY_OUT)/dtb.img \
     $(DEVICE_PATH)-kernel/kernel:kernel \
-    $(call find-copy-subdir-files,*,$(DEVICE_PATH)-kernel/system_dlkm/,$(TARGET_COPY_OUT_SYSTEM_DLKM)/lib/modules/6.1.57-android14-11-o-g8f97d2d569d6) \
+    $(call find-copy-subdir-files,*,$(DEVICE_PATH)-kernel/system_dlkm/,$(TARGET_COPY_OUT_SYSTEM_DLKM)/lib/modules/6.1.57-android14-11-o-g982ce5cd78f9) \
     $(call find-copy-subdir-files,*,$(DEVICE_PATH)-kernel/vendor_dlkm/,$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules) \
     $(call find-copy-subdir-files,*,$(DEVICE_PATH)-kernel/vendor_ramdisk/,$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/modules)
 
@@ -44,4 +44,4 @@ SOONG_CONFIG_OPLUS_LINEAGE_VIBRATOR_HAL := \
 SOONG_CONFIG_OPLUS_LINEAGE_VIBRATOR_HAL_USE_EFFECT_STREAM := true
 
 # Include the proprietary files BoardConfig.
-include vendor/oneplus/waffle/BoardConfigVendor.mk
+include vendor/oneplus/audi/BoardConfigVendor.mk

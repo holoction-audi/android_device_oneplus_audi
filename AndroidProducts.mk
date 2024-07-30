@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_waffle.mk
+    $(LOCAL_DIR)/lineage_audi.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_waffle-user \
-    lineage_waffle-userdebug \
-    lineage_waffle-eng
+    lineage_audi-user \
+    lineage_audi-userdebug \
+    lineage_audi-eng

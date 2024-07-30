@@ -14,8 +14,8 @@ fi
 
 set -e
 
-export DEVICE=waffle
-export DEVICE_COMMON=sm8650-common
+export DEVICE=audi
+export DEVICE_COMMON=sm7675-common
 export VENDOR=oneplus
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"

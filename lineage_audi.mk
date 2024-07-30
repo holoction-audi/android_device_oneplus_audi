@@ -8,26 +8,26 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from waffle device
-$(call inherit-product, device/oneplus/waffle/device.mk)
+# Inherit from audi device
+$(call inherit-product, device/oneplus/audi/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_waffle
-PRODUCT_DEVICE := waffle
+PRODUCT_NAME := lineage_audi
+PRODUCT_DEVICE := audi
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := CPH2581
+PRODUCT_MODEL := PJF110
 
 PRODUCT_SYSTEM_NAME := $(PRODUCT_MODEL)
-PRODUCT_SYSTEM_DEVICE := OP5929L1
+PRODUCT_SYSTEM_DEVICE := OP5CFBL1
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="CPH2581EEA-user 14 UKQ1.230924.001 U.R4T3.1738e32_6024_6023 release-keys" \
+    PRIVATE_BUILD_DESC="PFJ110-user 14 UP1A.231005.007 U.186ce25_1-18716 release-keys" \
     TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
-BUILD_FINGERPRINT := OnePlus/CPH2581EEA/OP595DL1:14/UKQ1.230924.001/U.R4T3.1738e32_6024_6023:user/release-keys
+BUILD_FINGERPRINT := OnePlus/PJF110/OP5CFBL1:14/UP1A.231005.007/U.186ce25_1-18716:user/release-keys
