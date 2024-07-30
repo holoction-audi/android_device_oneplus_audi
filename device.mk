@@ -17,8 +17,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2376
-TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 2772
+TARGET_SCREEN_WIDTH := 1240
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -35,7 +35,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit from the common OEM chipset makefile.
-$(call inherit-product, device/oneplus/sm8650-common/common.mk)
+$(call inherit-product, device/oneplus/sm7675-common/common.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/oneplus/waffle/waffle-vendor.mk)
+$(call inherit-product, vendor/oneplus/audi/audi-vendor.mk)
