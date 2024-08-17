@@ -14,6 +14,8 @@ $(call inherit-product, device/oneplus/audi/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+$(call inherit-product-if-exists, vendor/gms/products/gms.mk)
+
 PRODUCT_NAME := lineage_audi
 PRODUCT_DEVICE := audi
 PRODUCT_MANUFACTURER := OnePlus
