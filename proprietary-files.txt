@@ -215,7 +215,6 @@ odm/lib64/liboemconfigurationutil.so
 odm/lib64/libosenseaidlhalclient.so
 odm/lib64/libsharebuffer.so
 odm/lib64/libtrace.so
-odm/lib64/libui.so
 odm/lib64/vendor.oplus.hardware.camera_rfi-V1-ndk.so
 odm/lib64/vendor.oplus.hardware.camera_rfi-V1-service-impl.so
 odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk.so
