@@ -11,12 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from audi device
 $(call inherit-product, device/oneplus/audi/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common PixelOS stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-$(call inherit-product-if-exists, vendor/gms/products/gms.mk)
-
-PRODUCT_NAME := lineage_audi
+PRODUCT_NAME := aosp_audi
 PRODUCT_DEVICE := audi
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
