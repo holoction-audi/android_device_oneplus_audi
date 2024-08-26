@@ -180,7 +180,7 @@ odm/etc/sensor/config/lanai_mtp_oplus_smart_prox.json
 odm/etc/sensor/config/lanai_mtp_sx933x_0.json
 odm/etc/sensor/config/lanai_mtp_sx937x_0.json
 odm/etc/sensor/config/lux_aod.json
-odm/etc/sensor/config/waffle_qrd_ois_system.json
+odm/etc/sensor/config/audi_qrd_ois_system.json
 odm/etc/sensor/sensor_config.json
 
 # Touchscreen firmware
