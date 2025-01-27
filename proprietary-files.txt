@@ -1689,6 +1689,9 @@ odm/firmware/aw8697_Wood_RTP_82_178Hz.bin
 odm/firmware/aw8697_Wood_RTP_82.bin
 odm/firmware/awinic_haptic_params.bin
 
+# Vibrator
+odm/etc/aac_richtap.config
+
 # WiFi
 odm/etc/wifi/kiwi/regdb.bin
 odm/etc/wifi/kiwi/regdb_version
