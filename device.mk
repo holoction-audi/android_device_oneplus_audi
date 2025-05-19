@@ -45,7 +45,7 @@ $(call soong_config_set,OPLUS_LINEAGE_VIBRATOR_HAL,USE_EFFECT_STREAM,true)
 $(call soong_config_set,OPLUS_LINEAGE_VIBRATOR_HAL,INCLUDE_DIR,$(LOCAL_PATH)/vibrator/include)
 
 # Inherit from the common OEM chipset makefile.
-$(call inherit-product, device/oneplus/sm8650-common/common.mk)
+$(call inherit-product, device/oneplus/sm7675-common/common.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/oneplus/waffle/waffle-vendor.mk)
+$(call inherit-product, vendor/oneplus/avalon/avalon-vendor.mk)
