@@ -14,16 +14,18 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'vendor/oneplus/sm8650-common',
+    'hardware/oplus',
+    'hardware/qcom-caf/sm8650',
+    'vendor/oneplus/sm7675-common',
 ]
 
 blob_fixups: blob_fixups_user_type = {
     'odm/etc/camera/CameraHWConfiguration.config': blob_fixup()
-        .regex_replace('SystemCamera =  0;  0;  0;  1;  0; 1;', 'SystemCamera =  0;  0;  0;  0;  0; 0;')
+        .regex_replace('SystemCamera =  0;  0;  0;  0;  1;', 'SystemCamera =  0;  0;  0;  0;  0;')
 }  # fmt: skip
 
 module = ExtractUtilsModule(
-    'waffle',
+    'avalon',
     'oneplus',
     namespace_imports=namespace_imports,
     blob_fixups=blob_fixups,
@@ -32,6 +34,6 @@ module = ExtractUtilsModule(
 
 if __name__ == '__main__':
     utils = ExtractUtils.device_with_common(
-        module, 'sm8650-common', module.vendor
+        module, 'sm7675-common', module.vendor
     )
     utils.run()
