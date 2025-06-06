@@ -10,11 +10,10 @@
 
 #define TORCH_BRIGHTNESS "brightness"
 #define TORCH_MAX_BRIGHTNESS "max_brightness"
-#define TOGGLE_SWITCH "/sys/devices/platform/soc/c42d000.qcom,spmi/spmi-0/0-01/c42d000.qcom,spmi:qcom,pm8550@1:qcom,flash_led@ee00/leds/led:switch_2/brightness"
+#define TOGGLE_SWITCH "/sys/devices/platform/soc/c42d000.qcom,spmi/spmi-0/0-01/c42d000.qcom,spmi:qcom,pmxr2230@1:qcom,flash_led@ee00/leds/led:switch_0/brightness"
 
 static std::string kTorchLedPaths[] = {
-        "/sys/devices/platform/soc/c42d000.qcom,spmi/spmi-0/0-01/c42d000.qcom,spmi:qcom,pm8550@1:qcom,flash_led@ee00/leds/led:torch_0",
-        "/sys/devices/platform/soc/c42d000.qcom,spmi/spmi-0/0-01/c42d000.qcom,spmi:qcom,pm8550@1:qcom,flash_led@ee00/leds/led:torch_1",
+        "/sys/devices/platform/soc/c42d000.qcom,spmi/spmi-0/0-01/c42d000.qcom,spmi:qcom,pmxr2230@1:qcom,flash_led@ee00/leds/led:torch_0",
 };
 
 /**

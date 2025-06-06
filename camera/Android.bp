@@ -5,7 +5,7 @@
 //
 
 cc_library_static {
-    name: "libcameraservice_extension.waffle",
+    name: "libcameraservice_extension.audi",
     srcs: ["CameraProviderExtension.cpp"],
     include_dirs: [
         "frameworks/av/services/camera/libcameraservice/common"

@@ -16,7 +16,7 @@ TARGET_OTA_ASSERT_DEVICE := OP5CFBL1
 TARGET_CHARGE_RATE_MULTIPLIER := 2000
 
 # Camera
-TARGET_CAMERA_SERVICE_EXT_LIB := //$(DEVICE_PATH):libcameraservice_extension.waffle
+TARGET_CAMERA_SERVICE_EXT_LIB := //$(DEVICE_PATH):libcameraservice_extension.audi
 
 # Display
 TARGET_SCREEN_DENSITY := 510
@@ -33,10 +33,10 @@ PRODUCT_COPY_FILES += \
 # Kernel modules
 DLKM_MODULES_PATH := $(PREBUILT_PATH)/modules/vendor_dlkm
 RAMDISK_MODULES_PATH := $(PREBUILT_PATH)/modules/vendor_boot
-SYSTEM_DLKM_MODULES_PATH := $(PREBUILT_PATH)/modules/system_dlkm/6.1.75-android14-11-o-g9c1e58b386f5
+SYSTEM_DLKM_MODULES_PATH := $(PREBUILT_PATH)/modules/system_dlkm/6.1.75-android14-11-o-g1707cc1ed210
 
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,$(SYSTEM_DLKM_MODULES_PATH)/,$(TARGET_COPY_OUT_SYSTEM_DLKM)/lib/modules/6.1.75-android14-11-o-g9c1e58b386f5/)
+    $(call find-copy-subdir-files,*,$(SYSTEM_DLKM_MODULES_PATH)/,$(TARGET_COPY_OUT_SYSTEM_DLKM)/lib/modules/6.1.75-android14-11-o-g1707cc1ed210/)
 
 BOARD_VENDOR_KERNEL_MODULES := $(wildcard $(DLKM_MODULES_PATH)/*.ko)
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(patsubst %,$(DLKM_MODULES_PATH)/%,$(shell cat $(DLKM_MODULES_PATH)/modules.load))
