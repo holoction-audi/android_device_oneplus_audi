@@ -164,6 +164,9 @@ odm/firmware/tp/24211/sys_edge_touch_config.xml
 odm/firmware/tp/24211/sys_touch_algo_feature_config.xml
 odm/firmware/tp/24211/sys_touch_function_feature_config.xml
 
+# Vibrator
+odm/etc/aac_richtap.config
+
 # UFS firmware
 odm/firmware/ufs/SAMSUNG-KLUEG4RHHD-B0G1.bin
 odm/firmware/ufs/SKhynix-HN8T05BZGKX015.bin
