@@ -35,6 +35,13 @@ PRODUCT_PACKAGES += \
 # HTPR
 $(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,ENABLE_HTPR,false)
 
+# Regional properties
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24211/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/24211/build.default.prop \
+    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24211/build.EU.prop:$(TARGET_COPY_OUT_ODM)/etc/24211/build.EU.prop \
+    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24211/build.IN.prop:$(TARGET_COPY_OUT_ODM)/etc/24211/build.IN.prop \
+    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24211/build.ROW.prop:$(TARGET_COPY_OUT_ODM)/etc/24211/build.ROW.prop
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
