@@ -23,7 +23,7 @@ PRODUCT_MODEL := CPH2661
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="CPH2661IN-user 15 UKQ1.231108.001 U.R4T2.1f18640-1ecca-1ecc7 release-keys" \
+    BuildDesc="qssi_64-user 15 AP3A.240617.008 1754565910728 release-keys" \
     BuildFingerprint=OnePlus/CPH2661IN/OP5E93L1:15/UKQ1.231108.001/U.R4T2.1f18640-1ecca-1ecc7:user/release-keys \
     DeviceName=OP5E93L1 \
     DeviceProduct=CPH2661 \
