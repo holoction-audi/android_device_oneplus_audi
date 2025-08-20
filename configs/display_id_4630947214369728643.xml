@@ -226,6 +226,8 @@
 
   <highBrightnessMode enabled="true">
     <transitionPoint>0.85</transitionPoint>
+    <!-- Thermal limitation for HBM -->
+    <thermalStatusLimit>critical</thermalStatusLimit>
     <minimumHdrPercentOfScreen>0.1</minimumHdrPercentOfScreen>
 
     <minimumLux>10000</minimumLux>
