@@ -172,7 +172,7 @@ odm/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh
 odm/firmware/ufs/ufs_version_config.xml
 
 # WiFi
-odm/etc/wifi/qca6750/bdwlan.b0e
-odm/etc/wifi/qca6750/bdwlan.b0i
+odm/etc/wifi/kiwi/regdb.bin
+odm/etc/wifi/kiwi/regdb_version
 odm/etc/wifi/qca6750/bdwlan.elf
 odm/etc/wifi/qca6750/regdb.bin
