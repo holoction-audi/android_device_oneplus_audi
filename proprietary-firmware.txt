@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus Nord 4 CPH2661_15.0.0.1201(EX01).
+## are from OnePlus Ace 3v (ColorOS 14.0.1.630 A40).
 
 abl.img;AB
 aop.img;AB
