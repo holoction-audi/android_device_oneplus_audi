@@ -22,7 +22,8 @@ TARGET_CAMERA_SERVICE_EXT_LIB := //$(DEVICE_PATH):libcameraservice_extension.aud
 TARGET_SCREEN_DENSITY := 510
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/oplus/audi.config
+#TARGET_KERNEL_CONFIG += vendor/oplus/audi.config
+TARGET_KERNEL_ADDITIONAL_FLAGS += CONFIG_AUDI_DTB=y
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
