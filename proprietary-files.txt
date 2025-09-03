@@ -79,12 +79,12 @@ odm/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin
 odm/etc/camera/cfr_bin/CFR_imx355.bin
 odm/etc/camera/cfr_bin/CFR_imx581.bin
 odm/etc/camera/cfr_bin/CFR_imx709.bin
-odm/etc/camera/cfr_bin/CFR_imx882_avalon.bin
+odm/etc/camera/cfr_bin/CFR_imx882_audi.bin
 odm/etc/camera/config/camera_third_party_feature_config.protobuf
 odm/etc/camera/config/camera_unit_config
 odm/etc/camera/config/camera_unit_feature_config.protobuf
 odm/etc/camera/config/imx355
-odm/etc/camera/config/imx882_avalon
+odm/etc/camera/config/imx882_audi
 odm/etc/camera/config/oplus_camera_algo_switch_config
 odm/etc/camera/config/oplus_camera_algo_traversal_config.json
 odm/etc/camera/config/oplus_camera_aps_config
@@ -100,7 +100,7 @@ odm/etc/camera/CameraHWConfiguration.config
 odm/etc/camera/camera_engmode.xml
 odm/etc/camera/settings_fdc.txt
 odm/etc/camera/settings_fdc_lite.txt
-odm/lib64/camera/com.qti.sensor.imx882_avalon.so
+odm/lib64/camera/com.qti.sensor.imx882_audi.so
 
 # Charger firmware
 odm/firmware/fastchg/24211/charging_hyper_mode_config.txt
@@ -136,7 +136,7 @@ odm/vendor/firmware/uff_spi.b08
 odm/vendor/firmware/uff_spi.mdt
 
 # Sensors config
-odm/etc/sensor/config/avalon_qrd_ois_system.json
+odm/etc/sensor/config/audi_qrd_ois_system.json
 odm/etc/sensor/config/json_list
 odm/etc/sensor/config/lux_aod.json
 odm/etc/sensor/config/palawan_mtp_ak09919.json

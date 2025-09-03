@@ -1,5 +1,3 @@
-import /odm/etc/${ro.boot.prjname}/build.${ro.boot.hardware.revision}.prop
-
 ro.product.odm.model=PJF110
 ro.product.odm.name=PJF110
 ro.vendor.oplus.regionmark=CN
