@@ -1726,7 +1726,8 @@ odm/etc/wave_lib/F4/wave_he_short_f0_178_4.bin
 odm/etc/wave_lib/F_MMAP.txt
 
 # WiFi
-odm/etc/wifi/kiwi/regdb.bin
-odm/etc/wifi/kiwi/regdb_version
+odm/etc/wifi/qca6750/bdwlan.b0e
+odm/etc/wifi/qca6750/bdwlan.b0i
 odm/etc/wifi/qca6750/bdwlan.elf
+odm/etc/wifi/qca6750/regdb.bin
 odm/etc/wifi/qca6750/regdb.bin
