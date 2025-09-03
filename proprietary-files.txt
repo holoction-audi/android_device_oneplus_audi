@@ -147,19 +147,19 @@ odm/etc/sensor/config/palawan_mtp_pocket.json
 odm/etc/sensor/sensor_config.json
 
 # Touchscreen firmware
-odm/firmware/tp/24211/FW_S3910_TIANMA.img
-odm/firmware/tp/24211/FW_S3910_TIANMA_FAE.img
-odm/firmware/tp/24211/FW_S3910_TIANMA_HBP.img
-odm/firmware/tp/24211/FW_S3910_TIANMA_HBP_FAE.img
-odm/firmware/tp/24211/LIB_S3910_TIANMA_HBP_TS_ALGO.so
-odm/firmware/tp/24211/LIB_S3910_TIANMA_HBP_TS_HAL.so
-odm/firmware/tp/24211/LIMIT_S3910_TIANMA.img
-odm/firmware/tp/24211/LIMIT_S3910_TIANMA_AGING.img
-odm/firmware/tp/24211/LIMIT_S3910_TIANMA_HBP.img
-odm/firmware/tp/24211/libIfp.so
-odm/firmware/tp/24211/sys_edge_touch_config.xml
-odm/firmware/tp/24211/sys_touch_algo_feature_config.xml
-odm/firmware/tp/24211/sys_touch_function_feature_config.xml
+odm/firmware/tp/23803/FW_S3910_TIANMA.img
+odm/firmware/tp/23803/FW_S3910_TIANMA_FAE.img
+odm/firmware/tp/23803/FW_S3910_TIANMA_HBP.img
+odm/firmware/tp/23803/FW_S3910_TIANMA_HBP_FAE.img
+odm/firmware/tp/23803/LIB_S3910_TIANMA_HBP_TS_ALGO.so
+odm/firmware/tp/23803/LIB_S3910_TIANMA_HBP_TS_HAL.so
+odm/firmware/tp/23803/LIMIT_S3910_TIANMA.img
+odm/firmware/tp/23803/LIMIT_S3910_TIANMA_AGING.img
+odm/firmware/tp/23803/LIMIT_S3910_TIANMA_HBP.img
+odm/firmware/tp/23803/libIfp.so
+odm/firmware/tp/23803/sys_edge_touch_config.xml
+odm/firmware/tp/23803/sys_touch_algo_feature_config.xml
+odm/firmware/tp/23803/sys_touch_function_feature_config.xml
 
 # Vibrator
 odm/etc/aac_richtap.config
