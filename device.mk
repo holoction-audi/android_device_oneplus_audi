@@ -19,7 +19,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Display
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/display_id_4630947214369728643.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947214369728643.xml
+    $(LOCAL_PATH)/configs/display_id_4630946583411818883.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946583411818883.xml
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
