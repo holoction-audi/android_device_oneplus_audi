@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus Nord 4 (CPH2661_16.0.1.301(EX01)).
+## are from OnePlus Ace 3V (PJF110_16.0.1.301(CN01)).
 
 # Current blobs with deps disabled:
 # com.oplus.node.mvgsat, com.oplus.node.sstabphoto, com.qti.node.dewarp, com.qti.chi.override, libcamximageformatutils, libchifeature2 depends on multiple versions of the same aidl_interface: android.hardware.graphics.allocator-V1-ndk, android.hardware.graphics.allocator-V2-ndk-source
@@ -8,6 +8,7 @@
 # ACDB
 odm/etc/acdbdata/FTM/acdb_cal.acdb
 odm/etc/acdbdata/FTM/workspaceFileXml.qwsp
+odm/etc/acdbdata/MOS/acdb_cal.acdb
 odm/etc/acdbdata/Audio_Parameter_Version.txt
 odm/etc/acdbdata/acdb_cal.acdb
 
@@ -112,16 +113,6 @@ odm/etc/lvacfs_params/2mic/audiozoom_9.txt
 
 # Camera
 odm/bin/hw/vendor.oplus.hardware.cammidasservice-V1-service
-odm/etc/camera/aigc/aigc_models/blurDet_sm7675.bin
-odm/etc/camera/aigc/aigc_models/faceSeg_sm7675.bin
-odm/etc/camera/aigc/aigc_models/gfpgan1024_sm7675.bin
-odm/etc/camera/aigc/aigc_models/noise300.bin
-odm/etc/camera/aigc/libs/libODNN.so
-odm/etc/camera/aigc/libs/libOPAlgoCamAIGCFace.so
-odm/etc/camera/aigc/libs/libQnnHtp.so
-odm/etc/camera/aigc/libs/libQnnHtpV73Stub.so
-odm/etc/camera/aigc/libs/libQnnSystem.so
-odm/etc/camera/aigc/libs/libzlib.so
 odm/etc/camera/anc/fusion_model
 odm/etc/camera/anc/fusion_model_post
 odm/etc/camera/ancbokehseg/anc_cl_kernel.cache
@@ -137,12 +128,12 @@ odm/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin
 odm/etc/camera/cfr_bin/CFR_imx355.bin
 odm/etc/camera/cfr_bin/CFR_imx581.bin
 odm/etc/camera/cfr_bin/CFR_imx709.bin
-odm/etc/camera/cfr_bin/CFR_imx882_avalon.bin
+odm/etc/camera/cfr_bin/CFR_imx882.bin
 odm/etc/camera/config/camera_third_party_feature_config.protobuf
 odm/etc/camera/config/camera_unit_config
 odm/etc/camera/config/camera_unit_feature_config.protobuf
 odm/etc/camera/config/imx355
-odm/etc/camera/config/imx882_avalon
+odm/etc/camera/config/imx882
 odm/etc/camera/config/oplus_camera_algo_switch_config
 odm/etc/camera/config/oplus_camera_algo_traversal_config.json
 odm/etc/camera/config/oplus_camera_aps_config
@@ -166,20 +157,16 @@ odm/etc/camera/dng/ToneCurve_imx355.txt
 odm/etc/camera/dng/ToneCurve_imx882.txt
 odm/etc/camera/fb_model/000.png
 odm/etc/camera/fb_model/000_pre.bin
-odm/etc/camera/fb_model/000_pre.png
 odm/etc/camera/fb_model/001.png
 odm/etc/camera/fb_model/001_pre.bin
-odm/etc/camera/fb_model/001_pre.png
 odm/etc/camera/fb_model/002.png
 odm/etc/camera/fb_model/002_pre.bin
 odm/etc/camera/fb_model/003.png
 odm/etc/camera/fb_model/003_pre.bin
 odm/etc/camera/fb_model/010.png
 odm/etc/camera/fb_model/010_pre.bin
-odm/etc/camera/fb_model/010_pre.png
 odm/etc/camera/fb_model/011.png
 odm/etc/camera/fb_model/011_pre.bin
-odm/etc/camera/fb_model/011_pre.png
 odm/etc/camera/fb_model/012.png
 odm/etc/camera/fb_model/012_pre.bin
 odm/etc/camera/fb_model/013.png
@@ -927,7 +914,7 @@ odm/lib64/camera/awb_parameter_qtech_s5k3p9.bin
 odm/lib64/camera/awb_parameter_sunny_imx355.bin
 odm/lib64/camera/awb_parameter_sunny_imx882.bin
 odm/lib64/camera/com.qti.sensor.imx355.so
-odm/lib64/camera/com.qti.sensor.imx882_avalon.so
+odm/lib64/camera/com.qti.sensor.imx882.so
 odm/lib64/camera/com.qti.sensor.s5k3p9.so
 odm/lib64/camera/com.qti.sensormodule.qtech_s5k3p9.bin
 odm/lib64/camera/com.qti.sensormodule.sunny_imx355.bin
@@ -980,7 +967,6 @@ odm/lib64/libOPAlgoCamAIBeautyBodyDetection.so
 odm/lib64/libOPAlgoCamAiBeautyEyeRetouchCn.so
 odm/lib64/libOPAlgoCamAiBeautyFaceRetouchCn.so
 odm/lib64/libOPAlgoCamFaceBeautyCap.so
-odm/lib64/libOPAlgoCamGroupClassifier.so
 odm/lib64/libOPAlgoCamSinglePortrait.so
 odm/lib64/libOPLUSMotionDetection.so
 odm/lib64/libOplusPDCore.so
@@ -1514,43 +1500,43 @@ vendor/firmware/CAMERA_ICP_170.elf
 vendor/firmware/tof8801_firmware.bin
 
 # Charger firmware
-odm/firmware/fastchg/24211/charging_hyper_mode_config.txt
+odm/firmware/fastchg/23803/charging_hyper_mode_config.txt
 odm/firmware/fastchg/bms_heating_config.txt
 odm/firmware/fastchg/charge_time_config.csv
 odm/firmware/fastchg/charging_thermal_config_default.txt
 odm/firmware/fastchg/smart_chg_config_table.txt
 
 # Display calibration data
-my_product/vendor/etc/display_apollo_list_AA584_P_7_A0001_dsc_cmd_mode_panel.xml:vendor/etc/display_apollo_list_AA584_P_7_A0001_dsc_cmd_mode_panel.xml
-odm/etc/display/qdcm_calib_data_AA584_P_7_A0001_dsc_cmd_mode_panel.json
-vendor/etc/ltm_config_AA584_P_7_A0001_dsc_cmd_mode_panel.xml
+my_product/vendor/etc/display_apollo_list_AA553_P_7_A0001_dsc_cmd_mode_panel.xml:vendor/etc/display_apollo_list_AA553_P_7_A0001_dsc_cmd_mode_panel.xml
+odm/etc/display/qdcm_calib_data_AA553_P_7_A0001_dsc_cmd_mode_panel.json
+vendor/etc/ltm_config_AA553_P_7_A0001_dsc_cmd_mode_panel.xml
 
 # Display (Features)
-odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_1_100nit.odf
-odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_1_2nit.odf
-odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_1_max.odf
-odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_2_100nit.odf
-odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_2_2nit.odf
-odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_2_max.odf
-odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_Cinema_100nits_pGC.txt
-odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_Cinema_2nits_pGC.txt
-odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_Cinema_pGC.txt
-odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_EP3_100nits_pGC.txt
-odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_EP3_2nits_pGC.txt
-odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_EP3_pGC.txt
-odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_EsRGB_100nits_pGC.txt
-odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_EsRGB_2nits_pGC.txt
-odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_EsRGB_pGC.txt
-odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_HS
-odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_LsRGB_100nits_pGC.txt
-odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_LsRGB_2nits_pGC.txt
-odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_LsRGB_pGC.txt
-odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_Nature_100nits_pGC.txt
-odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_Nature_2nits_pGC.txt
-odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_Nature_pGC.txt
-odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_Vivid_100nits_pGC.txt
-odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_Vivid_2nits_pGC.txt
-odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_Vivid_pGC.txt
+odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_1_100nit.odf
+odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_1_2nit.odf
+odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_1_max.odf
+odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_2_100nit.odf
+odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_2_2nit.odf
+odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_2_max.odf
+odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_Cinema_100nits_pGC.txt
+odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_Cinema_2nits_pGC.txt
+odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_Cinema_pGC.txt
+odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_EP3_100nits_pGC.txt
+odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_EP3_2nits_pGC.txt
+odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_EP3_pGC.txt
+odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_EsRGB_100nits_pGC.txt
+odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_EsRGB_2nits_pGC.txt
+odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_EsRGB_pGC.txt
+odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_HS
+odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_LsRGB_100nits_pGC.txt
+odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_LsRGB_2nits_pGC.txt
+odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_LsRGB_pGC.txt
+odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_Nature_100nits_pGC.txt
+odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_Nature_2nits_pGC.txt
+odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_Nature_pGC.txt
+odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_Vivid_100nits_pGC.txt
+odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_Vivid_2nits_pGC.txt
+odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_Vivid_pGC.txt
 odm/etc/PanelChaplin/AdjustValue
 odm/etc/PanelChaplin/panelchaplin
 odm/etc/init/hw/init.oplus.display.rc
@@ -1777,9 +1763,9 @@ odm/lib64/libaiboost_qnn_external_delegate_te.so;FIX_SONAME
 odm/lib64/libaiboost_te.so;FIX_SONAME
 
 # NFC
-odm/etc/nfc/libnfc-mtp-SN220.conf_24211:vendor/etc/libnfc-nxp.conf
-odm/etc/nfc/libnfc-nci.conf_24211:vendor/etc/libnfc-nci.conf
-odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_45:vendor/firmware/pn560.bin
+odm/etc/nfc/libnfc-mtp-SN220.conf_23803:vendor/etc/libnfc-nxp.conf
+odm/etc/nfc/libnfc-nci.conf_23803:vendor/etc/libnfc-nci.conf
+odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_45:vendor/firmware/sn220u.bin
 
 # OPLUS Display
 odm/bin/hw/vendor.oplus.hardware.displaypanelfeature-service
@@ -1806,37 +1792,38 @@ vendor/lib64/vendor.oplus.hardware.displaycolorfeature-V1-ndk.so;MODULE_SUFFIX=_
 vendor/lib64/sensors.qsh.so
 
 # Sensors config
-odm/etc/sensor/config/avalon_qrd_ois_system.json
+odm/etc/sensor/config/audi_qrd_ois_system.json
 odm/etc/sensor/config/json_list
 odm/etc/sensor/config/lux_aod.json
-odm/etc/sensor/config/palawan_mtp_ak09919.json
 odm/etc/sensor/config/palawan_mtp_alsps.json
-odm/etc/sensor/config/palawan_mtp_alsps_hw_stk36c01.json
+odm/etc/sensor/config/palawan_mtp_alsps_hw_stk32600.json
 odm/etc/sensor/config/palawan_mtp_bmi26x.json
 odm/etc/sensor/config/palawan_mtp_freefall.json
+odm/etc/sensor/config/palawan_mtp_mmc56x3x.json
+odm/etc/sensor/config/palawan_mtp_oplus_flight_scene.json
 odm/etc/sensor/config/palawan_mtp_oplus_measurement.json
+odm/etc/sensor/config/palawan_mtp_oplus_rotation_detect.json
 odm/etc/sensor/config/palawan_mtp_pocket.json
-odm/etc/sensor/config/palawan_mtp_sx937x_0.json
 odm/etc/sensor/sensor_config.json
 
 # Touchscreen firmware
-odm/firmware/tp/24211/FW_S3910_TIANMA.img
-odm/firmware/tp/24211/FW_S3910_TIANMA_FAE.img
-odm/firmware/tp/24211/FW_S3910_TIANMA_HBP.img
-odm/firmware/tp/24211/FW_S3910_TIANMA_HBP_FAE.img
-odm/firmware/tp/24211/LIB_S3910_TIANMA_HBP_TS_ALGO.so
-odm/firmware/tp/24211/LIB_S3910_TIANMA_HBP_TS_HAL.so
-odm/firmware/tp/24211/LIMIT_S3910_TIANMA.img
-odm/firmware/tp/24211/LIMIT_S3910_TIANMA_AGING.img
-odm/firmware/tp/24211/LIMIT_S3910_TIANMA_HBP.img
-odm/firmware/tp/24211/libIfp.so
-odm/firmware/tp/24211/sys_edge_touch_config.xml
-odm/firmware/tp/24211/sys_touch_algo_feature_config.xml
-odm/firmware/tp/24211/sys_touch_function_feature_config.xml
+odm/firmware/tp/23803/FW_S3910_TIANMA.img
+odm/firmware/tp/23803/FW_S3910_TIANMA_FAE.img
+odm/firmware/tp/23803/FW_S3910_TIANMA_HBP.img
+odm/firmware/tp/23803/FW_S3910_TIANMA_HBP_FAE.img
+odm/firmware/tp/23803/LIB_S3910_TIANMA_HBP_TS_ALGO.so
+odm/firmware/tp/23803/LIB_S3910_TIANMA_HBP_TS_HAL.so
+odm/firmware/tp/23803/LIMIT_S3910_TIANMA.img
+odm/firmware/tp/23803/LIMIT_S3910_TIANMA_AGING.img
+odm/firmware/tp/23803/LIMIT_S3910_TIANMA_HBP.img
+odm/firmware/tp/23803/libIfp.so
+odm/firmware/tp/23803/sys_edge_touch_config.xml
+odm/firmware/tp/23803/sys_touch_algo_feature_config.xml
+odm/firmware/tp/23803/sys_touch_function_feature_config.xml
 
 # UFS firmware
 odm/firmware/ufs/SAMSUNG-KLUEG4RHHD-B0G1.bin
-odm/firmware/ufs/SKhynix-HN8T05BZGKX015.bin
+odm/firmware/ufs/SAMSUNG-KLUFG8RHHD-B0G1.bin
 odm/firmware/ufs/SKhynix-HN8T05DEHKX073.bin
 odm/firmware/ufs/SKhynix-HN8T274EJKX130.bin
 odm/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh
@@ -1857,8 +1844,6 @@ vendor/firmware/vpu33_4v.mbn
 vendor/firmware/vpu33_4v_unsigned.mbn
 
 # WiFi
-odm/etc/wifi/qca6750/bdwlan.b0e
-odm/etc/wifi/qca6750/bdwlan.b0i
 odm/etc/wifi/qca6750/bdwlan.elf
 odm/etc/wifi/qca6750/regdb.bin
 odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini
