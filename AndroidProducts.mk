@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_audi.mk
+    $(LOCAL_DIR)/custom_audi.mk
